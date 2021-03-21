@@ -89,6 +89,7 @@ assessmentButton.addEventListener('click', submitFunc);
 
 userNameInput.addEventListener('keydown', event => {
   if (event.keyCode === 13) {
+    console.log('非推奨');
     submitFunc();
   }
 });
